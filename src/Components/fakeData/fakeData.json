@@ -1,0 +1,18 @@
+[
+        {
+            "title": "One Time Ticket",
+            "price": "৳ 100"
+        },
+        {
+            "title": "One Day Pass",
+            "price": "৳ 100"
+        },
+        {
+            "title": "Monthly Pass",
+            "price": "৳ 100"
+        },
+        {
+            "title": "Annual Pass",
+            "price": "৳ 100"
+        }
+    ]

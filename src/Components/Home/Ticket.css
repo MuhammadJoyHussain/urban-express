@@ -1,0 +1,20 @@
+.ticket{
+    margin: 100px 20px;
+    width: 400px;
+    height: 150px;
+    text-align: center;
+    box-shadow: 5px 10px 30px rgba(11, 128, 36, 0.5);
+    background-image: linear-gradient(to bottom right, gray, #21af84);
+    color: rgb(50, 46, 51);
+    border-radius: 20px;
+}
+
+
+.ticket button{
+    height: 40px;
+    cursor: pointer;
+    width: 150px;
+    border-radius: 30px;
+    border: none;
+    background: linear-gradient(to bottom right, rgb(92, 92, 5), #d8b90ac9);
+}
