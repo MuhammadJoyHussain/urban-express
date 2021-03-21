@@ -1,29 +1,18 @@
-import React, { useEffect, useState } from 'react';
-import Tickets from '../fakeData/fakeData.json';
-import Ticket from './Ticket';
-
-
-
+import Ticket from '../Ticket/Ticket';
+import fakeData from '../fakeData/fakeData.json';
 
 const Home = () => {
     const style = {
         display: 'flex'
     }
-
-    const [ticket, setTicket] = useState([]);
-  useEffect (()=>{
-    setTicket(Tickets);
-  }, []);
-
-
+    
+    const ticket = fakeData
 
     return (
         <div style={style}>
-            <>
             {
-                ticket.map(ticket=> <Ticket ticket={ticket}></Ticket>)
+                ticket.map(tickets => <Ticket tickets={tickets}></Ticket>)
             }
-            </>
         </div>
     );
 };

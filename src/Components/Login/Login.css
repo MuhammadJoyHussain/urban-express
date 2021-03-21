@@ -91,28 +91,6 @@
     font-size: 16px;
   }
   
-  .logout {
-    width: 100%;
-    min-height: 100vh;
-    
-  }
+
   
-  .logout nav {
-    background: #603bbb;
-    width: 100%;
-    padding: 20px 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .logout nav h2 {
-    color: #fff;
-  }
-  
-  .logout nav button {
-    width: 86px;
-    padding: 8px 0;
-    background: #3a2b58;
-  }
   

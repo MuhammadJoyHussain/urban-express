@@ -1,18 +1,22 @@
 [
-        {
-            "title": "One Time Ticket",
-            "price": "৳ 100"
-        },
-        {
-            "title": "One Day Pass",
-            "price": "৳ 100"
-        },
-        {
-            "title": "Monthly Pass",
-            "price": "৳ 100"
-        },
-        {
-            "title": "Annual Pass",
-            "price": "৳ 100"
-        }
-    ]
+    {
+        "id": 1,
+        "title": "One Time Ticket",
+        "price": "৳ 100"
+    },
+    {
+        "id": 2,
+        "title": "One Day Pass",
+        "price": "৳ 500"
+    },
+    {
+        "id": 3,
+        "title": "Monthly Pass",
+        "price": "৳ 1500"
+    },
+    {
+        "id": 4,
+        "title": "Annual Pass",
+        "price": "৳ 9000"
+    }
+]

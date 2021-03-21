@@ -1,16 +1,16 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, {  useEffect, useState } from 'react';
 import fire from './fire';
 import LoginManager from './LoginManager';
 import './Login.css'
-import { UserContext } from '../../App';
-import Logout from '../Logout/Logout';
+import DestinationDetails from '../Destination/DestinationDetails';
+
+
 
 
 
 
 
 function Login() {
-  const [ loggedIn, setLoggedIn ] = useContext(UserContext);
   const [user, setUser] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -86,14 +86,14 @@ function Login() {
     authListener();
   }, [])
 
-
+  
 
 
   return (
     <div>
         {
           user ? (
-            <Logout handleLogout={handleLogout} />
+            <DestinationDetails handleLogout={handleLogout} />
           ) : 
           <LoginManager
           email={email}

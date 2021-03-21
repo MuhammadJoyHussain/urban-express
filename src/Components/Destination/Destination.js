@@ -1,17 +1,16 @@
-import React from 'react';
-import { useParams } from 'react-router';
-import Home from '../Home/Home';
-import './Destination.css'
-import fakeData from '../fakeData/fakeData.json'
 
+import fakeData from '../fakeData/fakeData.json'
+import DestinationDetails from './DestinationDetails';
 
 const Destination = () => {
-    const{ ticketType } = useParams;
-    const ticket = fakeData.find(pd => pd.key === ticketType)
-
+    const destination = fakeData
+    
+    
+    
     return (
-        <div>
-           <Home tiket={ticket}></Home>
+        <div>{
+            destination.map(details => <DestinationDetails details={details}></DestinationDetails>)
+            }
         </div>
     );
 };
